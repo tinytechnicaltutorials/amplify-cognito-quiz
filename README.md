@@ -1,6 +1,6 @@
 # Create a Quiz using AWS Amplify and Cognito (with CI/CD)
 
-This repository contains the commands and code used in [this YouTube video](http://www.youtube.com).  **UPDATE**
+This repository contains the commands and code used in [this YouTube video](http://www.youtube.com).
 
 ## Terminal Commands
 
