@@ -16,7 +16,7 @@ import '@aws-amplify/ui-react/styles.css';
 import awsExports from './aws-exports';
 
 // Imports the Quiz component from Quiz.js for use in this file.
-import Quiz from './Quiz';
+
 
 // Configures the Amplify library with the settings from aws-exports.js, which includes all the AWS service configurations for this project.
 Amplify.configure(awsExports);
@@ -28,9 +28,7 @@ function App() {
         {({ signOut }) => (
           <main>
             <header className='App-header'>
-              {/* Quiz Component */}
-              <Quiz />
-              {/* Sign Out Button */}
+      
               <button 
                 onClick={signOut} 
                 style={{ 
